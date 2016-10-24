@@ -1,1 +1,77 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+  display: inline;
+  background-color: #cff1f9;
+  margin: 10px;
+  padding: 10px;
+}
+nav:hover {
+ background-color: #87475d;
+}
+a.active {
+  font-weight: bold;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  background: #86c8d8;
+  margin: 20px;
+  padding: 10px;
+}
+.bio-photo {
+  width: 300px;
+  float: left;
+  background: #c3dce2;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.smalltext {
+  font-size: 9pt;
+  color: #898b8c;
+  font-style: italic;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  color: #003f4f;
+  margin-left: 20px;
+}
+h2 {
+  font-size: 2em;
+  font-family: sans-serif;
+  color: #007491;
+  margin-left: 30px;
+}
+.poem {
+  font-size: 1.25em;
+  font-family: serif;
+  background-color: #373544;
+  margin: 45px;
+  padding: 10px;
+  color: white;
+  line-height: 30px;
+}
+h3 {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #373544;
+  text-align: left;
+}
+#selected_works {
+  background: #373544;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+}
+.definitive_list {
+  padding: 20px;
+}
+#content {
+  width: 50%;
+  margin: 20px;
+  text-align: left;
+}
